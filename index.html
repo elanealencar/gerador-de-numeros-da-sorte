@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de números</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/icons-luck.png">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-title">
+            <h1>Gerador de números da sorte</h1>
+            <img src="./assets/image.png" alt="Icone de sorte">
+        </div>
+      
+        <div class="container">
+            <div class="number-container">
+                <label for="number">Quantos números você quer sortear?</label>
+                <input type="number" id="number" value="5" min="1" required>
+            </div>
+
+            <div class="range-container">
+                <div class="range-title"> Números entre:</div>
+                    <div class="range-inputs-container">
+                        <div class="range-inputs">
+                            <label for="min">mínimo:</label>
+                            <input type="number" id="min" value="1" min="1" required>
+                        </div>
+                        <div class="range-inputs">
+                            <label for="max">máximo:</label>
+                            <input type="number" id="max" value="100" min="1" required>
+
+                        </div>
+                    </div>
+            </div>
+            
+            <button id="generate">Gerar números</button>
+            <div class="number-output">
+                <div>Números gerados:</div>
+                <div id="output"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-title">Desenvolvido por: Elane Alencar</div>
+
+<script src="script.js"></script>
+</body>
+</html>
