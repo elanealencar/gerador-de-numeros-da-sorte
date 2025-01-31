@@ -8,8 +8,9 @@ body {
     align-items: center;
     font-style: "Roboto", "DM Sans", sans-serif;
     font-size: 20px;
-    background: linear-gradient(to bottom, #396f3b, #85a786);
-
+    background: url('./assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card {
